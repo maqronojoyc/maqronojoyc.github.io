@@ -539,6 +539,13 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .spDesc {
+        max-width: 110px;
+    }
+}
+
+
 @media screen and (min-width: 100px) and (max-width: 660px) {
     .SiteMapHolder {
         width: 100%;
@@ -720,6 +727,9 @@
 
     #ContinuousDeliveryBullets {
         display: none;
+    }
+    .spDesc {
+        max-width: none;
     }
 }
 
