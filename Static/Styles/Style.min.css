@@ -880,6 +880,7 @@ a .imgFollowUS {
 .CareersRight {
     width: 25%;
     margin-left: 5%;
+    font-size: 13px;
 }
 
     .CareersRight div p, #CareersRightTab ul, .ImageTitle {
@@ -1304,4 +1305,11 @@ b {
 
 .GlyphMgn-bi {
     margin-left: -2px;
+}
+
+.ReadMore{
+    color: #0072c6;
+}
+.pLearnMore{
+    font-size: 20px;
 }
