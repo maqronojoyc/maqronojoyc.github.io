@@ -140,41 +140,46 @@ function careersInMumbai() {
 function redirect() {
     "use strict";
     var hashVal = window.location.hash;
+    if ($(window).width() < 600) {
+        $('.SecondlevelNav').slideUp();
+        $('#SiteNavigation').slideUp();
+    } 
     $('.aSiteLinks').css('color', '#222');
+    $('.activeTab').removeClass('activeTab');
     if (-1 !== hashVal.toLowerCase().indexOf('#expertise'.toLowerCase())) {
         loadPage('Expertise');
         document.title = 'Expertise - MAQ Software';
-        $('.ExpertiseTab').css('color', '#bb141a');
+        $('.ExpertiseTab').addClass('activeTab');
     } else if (-1 !== hashVal.toLowerCase().indexOf('#profile'.toLowerCase())) {
         loadPage('Profile');
         document.title = 'Profile - MAQ Software';
-        $('.ProfileTab').css('color', '#bb141a');
+        $('.ProfileTab').addClass('activeTab');
     } else if (-1 !== hashVal.toLowerCase().indexOf('#news'.toLowerCase())) {
         loadPage('News');
         document.title = 'News - MAQ Software';
-        $('.NewsTab').css('color', '#bb141a');
+        $('.NewsTab').addClass('activeTab');
     } else if (-1 !== hashVal.toLowerCase().indexOf('#careersinhyd'.toLowerCase())) {
         loadPage('CareersinHyd');
-        $('.CareersTab').css('color', '#bb141a');
+        $('.CareersTab').addClass('activeTab');
         document.title = 'Careers in Hyderabad - MAQ Software';
         setTimeout(careersInHyd, 100);
     } else if (-1 !== hashVal.toLowerCase().indexOf('#careersinmumbai'.toLowerCase())) {
         loadPage('CareersinMumbai');
-        $('.CareersTab').css('color', '#bb141a');
+        $('.CareersTab').addClass('activeTab');
         document.title = 'Careers in Mumbai - MAQ Software';
         setTimeout(careersInMumbai, 100);
     } else if (-1 !== hashVal.toLowerCase().indexOf('#careerinus'.toLowerCase())) {
         loadPage('CareerinUS');
-        $('.CareersTab').css('color', '#bb141a');
+        $('.CareersTab').addClass('activeTab');
         document.title = 'Careers in US - MAQ Software';
         setTimeout(careersInUS, 100);
     } else if (-1 !== hashVal.toLowerCase().indexOf('#careers'.toLowerCase())) {
         loadPage('Careers');
-        $('.CareersTab').css('color', '#bb141a');
+        $('.CareersTab').addClass('activeTab');
         document.title = 'Careers - MAQ Software';
     } else if (-1 !== hashVal.toLowerCase().indexOf('#contactus'.toLowerCase())) {
         loadPage('Contactus');
-        $('.ContactusTab').css('color', '#bb141a');
+        $('.ContactusTab').addClass('activeTab');
         document.title = 'Contact - MAQ Software';
         $('.PagePadding').css('padding-bottom', '300px');
     } else {

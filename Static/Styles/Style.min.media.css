@@ -533,10 +533,16 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .activeTab {
+        background-color: #8d0d12 !important;
+    }
+}
+
 @media screen and (min-width: 100px) and (max-width: 660px) {
     .SiteMapHolder {
         width: 100%;
-    }
+    }    
 }
 
 @media screen and (min-width: 100px) and (max-width: 599px) {
@@ -580,7 +586,7 @@
 
         .SecondlevelNav a {
             display: block;
-            color: #fff;
+            color: #fff !important;
             background-color: #bb141a;
             padding: 10px 0;
             padding-left: 35px;

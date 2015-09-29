@@ -1313,3 +1313,7 @@ b {
 .pLearnMore{
     font-size: 20px;
 }
+
+.activeTab {
+    color: #bb141a !important;
+}
