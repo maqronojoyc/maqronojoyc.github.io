@@ -4,11 +4,12 @@
     <p class="DataSubContent">At MAQ Software, a team of graphics and usability experts understands your requirements in person and interacts with multiple stakeholders to help you come up with a richer concept. We have been delivering high traffic websites at Microsoft for over thirteen years and are experts in Microsoft branding standards.</p>
     <p class="DataSubContent SemiBold Color3f3f3f">Brand experience assessment</p>
     <ul class="MarginTop5 CircleBullets">
-        <li>User studies and online surveys</li>
+        <li>Core values</li>
+        <li>Key strengths and weaknesses</li>
+        <li>Communication Strategy</li>
         <li>Competitive analysis</li>
-        <li>Online experience assessment</li>
     </ul>
-    <p class="DataSubContent SemiBold Color3f3f3f">UI design</p>
+    <p class="DataSubContent SemiBold Color3f3f3f">Deliverables</p>
     <ul class="MarginTop5 CircleBullets">
         <li>Requirements analysis including creative brief and usability goals documentation</li>
         <li>Brand style guide and content discussions</li>
@@ -19,7 +20,6 @@
     <p class="DataSubContent SemiBold Color3f3f3f">Optimization</p>
     <ul class="MarginTop5 CircleBullets">
         <li>User studies and online surveys</li>
-        <li>Competitive analysis</li>
         <li>Online experience assessment</li>
     </ul>	           
 </article>

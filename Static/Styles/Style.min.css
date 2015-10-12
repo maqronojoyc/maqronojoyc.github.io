@@ -729,6 +729,10 @@ a .imgFollowUS {
     overflow: hidden;
 }
 
+#DataSection > .TopMargin{
+    margin-top: 40px !important;
+}
+
 #WinAzureImg {
     margin-left: -2px;
 }
